@@ -128,7 +128,7 @@ SET global local_infile=true;
 
 -Add LOCAL to the same code we used earlier as shown below, then run the code:
 ```sql
-LOAD DATA LOCAL INFILE '\Users\Raufr\OneDrive\Desktop\Big QueryAvocado1.csv' 		-- notice we added Local to this line and used a file path from our PC 
+LOAD DATA LOCAL INFILE '\Users\Raufr\OneDrive\Desktop\Big QueryAvocado1.csv' -- notice we added Local to this line and used a file path from our PC 
 INTO TABLE Avocado.avocado1
 FIELDS TERMINATED BY ',' 
 ENCLOSED BY '"'
